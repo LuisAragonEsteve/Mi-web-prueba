@@ -4,19 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi Primera Web 🚀</title>
+  <title>Mi Sitio Mejorado 🚀</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      color: white;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    header {
+      padding-top: 40px;
     }
     h1 {
       font-size: 2.5em;
@@ -24,11 +27,15 @@
     }
     p {
       font-size: 1.2em;
-      max-width: 600px;
-      padding: 0 20px;
+      max-width: 700px;
+    }
+    img {
+      width: 250px;
+      border-radius: 20px;
+      margin: 30px 0;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
     }
     a.button {
-      margin-top: 30px;
       display: inline-block;
       padding: 12px 25px;
       background-color: #00c6ff;
@@ -36,17 +43,28 @@
       border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
+      margin-top: 20px;
       transition: background 0.3s;
     }
     a.button:hover {
       background-color: #00a2d8;
     }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
   </style>
 </head>
 <body>
-  <h1>🚀 ¡Bienvenido a mi sitio web!</h1>
-  <p>Este es un sitio de prueba creado con HTML y CSS.  
-     Está alojado gratis en GitHub Pages.</p>
-  <a href="https://github.com" class="button" target="_blank">Ver mi GitHub</a>
+  <header>
+    <h1>🌟 Bienvenido a mi nueva versión web</h1>
+    <p>Ahora con imagen, diseño mejorado y un pie de página profesional.  
+       ¡Todo esto fue subido desde un celular!</p>
+  </header>
+  <img src="https://picsum.photos/250?grayscale" alt="Imagen de muestra">
+  <a href="https://github.com/LuisAragonEsteve" class="button" target="_blank">Visita mi GitHub</a>
+  <footer>© 2025 Luis Aragón Esteve. Todos los derechos reservados.</footer>
 </body>
 </html>

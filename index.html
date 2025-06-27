@@ -2,69 +2,181 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi Sitio Mejorado 🚀</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitio Web Interactivo</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #141e30, #243b55);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      min-height: 100vh;
-      padding: 20px;
+      background: #0f2027;
+      color: white;
+      line-height: 1.6;
     }
     header {
-      padding-top: 40px;
+      background: #203a43;
+      padding: 40px 20px;
+      text-align: center;
     }
-    h1 {
+    header h1 {
       font-size: 2.5em;
-      margin-bottom: 0.2em;
     }
-    p {
-      font-size: 1.2em;
-      max-width: 700px;
+    nav {
+      background: #2c5364;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px;
     }
-    img {
-      width: 250px;
-      border-radius: 20px;
-      margin: 30px 0;
-      box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    }
-    a.button {
-      display: inline-block;
-      padding: 12px 25px;
-      background-color: #00c6ff;
-      color: #000;
-      border-radius: 30px;
+    nav a {
+      color: white;
       text-decoration: none;
       font-weight: bold;
-      margin-top: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      background-color: #1e3c52;
       transition: background 0.3s;
     }
-    a.button:hover {
-      background-color: #00a2d8;
+    nav a:hover {
+      background-color: #00c6ff;
+      color: black;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      color: #00c6ff;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background: #162c3d;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 5px;
+      transition: background 0.2s;
+    }
+    li:hover {
+      background: #1e3c52;
     }
     footer {
-      margin-top: auto;
+      background: #141e30;
+      color: #ccc;
+      text-align: center;
       padding: 20px;
       font-size: 0.9em;
-      color: #ccc;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>🌟 Bienvenido a mi nueva versión web</h1>
-    <p>Ahora con imagen, diseño mejorado y un pie de página profesional.  
-       ¡Todo esto fue subido desde un celular!</p>
+    <h1>🌐 Sitio Interactivo con Varias Opciones</h1>
+    <p>Haz clic en cualquier sección para explorar más</p>
   </header>
-  <img src="https://picsum.photos/250?grayscale" alt="Imagen de muestra">
-  <a href="https://github.com/LuisAragonEsteve" class="button" target="_blank">Visita mi GitHub</a>
-  <footer>© 2025 Luis Aragón Esteve. Todos los derechos reservados.</footer>
+
+  <nav>
+    <a href="#tutoriales">Tutoriales</a>
+    <a href="#productos">Productos</a>
+    <a href="#recursos">Recursos</a>
+    <a href="#apps">Apps</a>
+    <a href="#tools">Herramientas</a>
+    <a href="#tecnologias">Tecnologías</a>
+    <a href="#redes">Redes Sociales</a>
+    <a href="#videos">Videos</a>
+    <a href="#articulos">Artículos</a>
+    <a href="#trucos">Trucos</a>
+  </nav>
+
+  <section id="tutoriales">
+    <h2>📘 Tutoriales</h2>
+    <ul>
+      <li>HTML desde cero</li>
+      <li>CSS básico</li>
+      <li>JavaScript interactivo</li>
+      <li>Crear un portafolio</li>
+      <li>Subir tu web a GitHub</li>
+      <li>Diseño responsive</li>
+      <li>Animaciones CSS</li>
+      <li>SEO básico</li>
+      <li>Aprende Git</li>
+      <li>Domina VS Code</li>
+    </ul>
+  </section>
+
+  <section id="productos">
+    <h2>🛍️ Productos</h2>
+    <ul>
+      <li>Monitor MSI 27"</li>
+      <li>Teclado mecánico RGB</li>
+      <li>Mouse Logitech G305</li>
+      <li>Auriculares HyperX</li>
+      <li>Tarjeta gráfica RTX 4070</li>
+      <li>SSD NVMe 1TB</li>
+      <li>Procesador AMD Ryzen 5</li>
+      <li>Gabinete con RGB</li>
+      <li>Silla gamer</li>
+      <li>Controlador de ventiladores</li>
+    </ul>
+  </section>
+
+  <section id="recursos">
+    <h2>📁 Recursos</h2>
+    <ul>
+      <li>Plantillas HTML</li>
+      <li>Íconos gratuitos</li>
+      <li>Fuentes Google Fonts</li>
+      <li>Bancos de imágenes</li>
+      <li>Guías para desarrolladores</li>
+      <li>Snippets CSS</li>
+      <li>Plugins para VS Code</li>
+      <li>Frameworks populares</li>
+      <li>Checklists UX</li>
+      <li>Guías accesibilidad web</li>
+    </ul>
+  </section>
+
+  <section id="apps">
+    <h2>📱 Apps útiles</h2>
+    <ul>
+      <li>GitHub Mobile</li>
+      <li>Canva</li>
+      <li>CapCut</li>
+      <li>Notion</li>
+      <li>Snapseed</li>
+      <li>InShot</li>
+      <li>Discord</li>
+      <li>Telegram</li>
+      <li>Brave Browser</li>
+      <li>VS Code Web</li>
+    </ul>
+  </section>
+
+  <section id="tools">
+    <h2>🔧 Herramientas</h2>
+    <ul>
+      <li>Compresor de imágenes</li>
+      <li>Generador de gradientes</li>
+      <li>Mockups gratis</li>
+      <li>Color picker</li>
+      <li>Analizador de SEO</li>
+      <li>Test velocidad web</li>
+      <li>Conversor HTML/CSS</li>
+      <li>Generador de paletas</li>
+      <li>Validador W3C</li>
+      <li>Sandbox de código</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Luis Aragón Esteve — Navega y aprende más
+  </footer>
+
 </body>
 </html>
